@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)file:///C:/Users/acer/Desktop/find%20it/index.html#home -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FindIt - Smart Lost &amp; Found</title>
+
+    <link rel="stylesheet" href="./FindIt - Smart Lost &amp; Found_files/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">🔎 FindIt.</div>
+
+        <nav>
+            <a href="file:///C:/Users/acer/Desktop/find%20it/index.html#home">Home</a>
+            <a href="file:///C:/Users/acer/Desktop/find%20it/index.html#items">Explore Items</a>
+            <a href="file:///C:/Users/acer/Desktop/find%20it/index.html#how">How It Works</a>
+        </nav>
+
+        <button class="login-btn">Get Started</button>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <span class="tag">✨ Your Campus Lost &amp; Found Hub</span>
+
+            <h1>
+                Lost something?<br>
+                <span>Let's find it.</span>
+            </h1>
+
+            <p>
+                Don't let your lost belongings stay lost.
+                FindIt connects people with their missing items
+                through one simple platform.
+            </p>
+
+            <div class="hero-buttons">
+                <button class="primary-btn" onclick="showLostForm()">
+                    Report Lost Item
+                </button>
+
+                <button class="secondary-btn" onclick="showFoundForm()">
+                    Report Found Item
+                </button>
+            </div>
+
+        </div>
+
+        <div class="hero-visual">
+            <div class="floating-card">
+                🔑
+                <h3>Lost Keys?</h3>
+                <p>Let's find them!</p>
+            </div>
+
+            <div class="floating-card second-card">
+                🎒
+                <h3>Found Something?</h3>
+                <p>Help someone find it.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Search Section -->
+    <section class="search-section" id="items">
+
+        <h2>Find What You're Looking For</h2>
+
+        <p>Search through lost and found items around your campus.</p>
+
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search for ID card, wallet, keys...">
+
+            <button onclick="searchItems()">🔍 Search</button>
+        </div>
+
+        <div class="filters">
+            <button onclick="filterItems('all')">All Items</button>
+            <button onclick="filterItems('lost')">Lost</button>
+            <button onclick="filterItems('found')">Found</button>
+        </div>
+
+    </section>
+
+
+    <!-- Items Display -->
+    <section class="items-section">
+
+        <div class="section-heading">
+            <h2>Recently Reported Items</h2>
+            <p>Let's reunite people with their belongings.</p>
+        </div>
+
+        <div class="items-grid" id="itemsGrid"><div class="item-card">
+      <h3>Water Bottle</h3>
+      <p>Blue water bottle</p>
+      <p>Category: Bottle</p>
+      <p>Location: College Library</p>
+      <span>LOST</span>
+    </div><div class="item-card">
+      <h3>Student ID Card</h3>
+      <p>Student ID card found near classroom</p>
+      <p>Category: ID Card</p>
+      <p>Location: Classroom</p>
+      <span>FOUND</span>
+    </div><div class="item-card">
+      <h3>Black Wallet</h3>
+      <p>Black wallet</p>
+      <p>Category: Wallet</p>
+      <p>Location: Canteen</p>
+      <span>LOST</span>
+    </div><div class="item-card">
+      <h3>Keys</h3>
+      <p>Key bunch found</p>
+      <p>Category: Keys</p>
+      <p>Location: Parking Area</p>
+      <span>FOUND</span>
+    </div></div>
+
+    </section>
+
+
+    <!-- How It Works -->
+    <section class="how-section" id="how">
+
+        <h2>How FindIt Works</h2>
+
+        <div class="steps">
+
+            <div class="step-card">
+                <div class="step-icon">📝</div>
+                <h3>01. Report</h3>
+                <p>Post details about your lost or found item.</p>
+            </div>
+
+            <div class="step-card">
+                <div class="step-icon">🔎</div>
+                <h3>02. Match</h3>
+                <p>Find similar items using our smart matching system.</p>
+            </div>
+
+            <div class="step-card">
+                <div class="step-icon">🤝</div>
+                <h3>03. Reunite</h3>
+                <p>Submit a claim and get your belongings back.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <h2>🔎 FindIt.</h2>
+        <p>Making lost things found again.</p>
+        <p>© 2026 FindIt. All rights reserved.</p>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="./FindIt - Smart Lost &amp; Found_files/script.js"></script>
+
+
+</body></html>
